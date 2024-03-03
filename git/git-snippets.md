@@ -37,3 +37,8 @@ git diff --word-diff HEAD 14a5b6 -- "subjects/Prework/Przygotowanie do kursu/4.1
 ```bash
 git diff --name-status 14a5b6 HEAD -- "subjects/Prework/Przygotowanie do kursu/4.1" | grep -vE '\.en\.|\.yml$'
 ```
+## fetch all repos
+
+```bash 
+for dir in */; do (cd "$dir" && echo "Updating $dir" && git fetch origin develop && git checkout develop && git merge --ff-only origin/develop && echo "-----------------------------------"); done
+```
