@@ -28,6 +28,24 @@ or across versions (with main pill directory and CCC to track moved files)
 git diff -C -C -C <old_commit>..HEAD -- <directory> -- *<suffix>
 ```
 
+## difference between words added and removed
+
+### added
+```bash
+git diff --word-diff=porcelain <old_commit> | grep -e '^+[^+]' | wc -m
+```
+
+### removed
+```bash
+git diff --word-diff=porcelain <old_commit> | grep -e '^-[^-]' | wc -m
+```
+
+
+## by type of change of file 
+```bash
+git diff-index --name-status <old_commit>
+```
+
 ## check new PL changes
 
 ```bash
