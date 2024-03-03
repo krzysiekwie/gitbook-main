@@ -1,3 +1,13 @@
 # Table of contents
 
-* [git snippets](README.md)
+## Python
+
+* [Python scripts](README.md)
+
+## git
+
+* [git snippets](git/git-snippets.md)
+
+## bash
+
+* [files](bash/files.md)
