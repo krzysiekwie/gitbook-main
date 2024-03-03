@@ -1,8 +1,8 @@
 # Table of contents
 
-## Python
+## General
 
-* [Python scripts](README.md)
+* [Quick-capture for notes and snippets](README.md)
 
 ## git
 
@@ -11,3 +11,7 @@
 ## bash
 
 * [files](bash/files.md)
+
+## Python
+
+* [files](python/scripts.md)
