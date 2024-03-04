@@ -4,6 +4,6 @@ Mostly used for work as a technical translator at CL (since 2022). For earlier/p
 
 If you're not reading this on [krzysztof-wierzbicki.gitbook.io](https://krzysztof-wierzbicki.gitbook.io/main/general/readme) you're missing out on some navigation features, light/dark mode etc.
 
-Enjoy,
+Enjoy,  
 Krzysztof Wierzbicki
 
