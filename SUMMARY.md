@@ -10,6 +10,7 @@
 
 ## bash
 
+* [repos](bash/repos.md)
 * [files](bash/files.md)
 
 ## Python
