@@ -69,6 +69,14 @@ find images in markdown files:
 grep -r . -e '\!\[' --include=*.md > images_in_mds.txt
 ```
 
+## count files in subdirectories
+
+mindepth and maxdepth to only check immediate descendants. add -name e.g "*.md" etc to only count certain filetype 
+
+```bash
+find . -mindepth 1 -maxdepth 1 -type d -exec sh -c 'echo -n "{}: "; find "{}" -type f | wc -l' \;
+```
+
 ## batch rename files
 
 ```bash
